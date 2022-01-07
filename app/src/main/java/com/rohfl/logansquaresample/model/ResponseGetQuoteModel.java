@@ -62,4 +62,36 @@ public class ResponseGetQuoteModel{
 	public List<String> getTags(){
 		return tags;
 	}
+
+	public void setAuthorSlug(String authorSlug) {
+		this.authorSlug = authorSlug;
+	}
+
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+	public void setLength(int length) {
+		this.length = length;
+	}
+
+	public void setDateModified(String dateModified) {
+		this.dateModified = dateModified;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public void setDateAdded(String dateAdded) {
+		this.dateAdded = dateAdded;
+	}
+
+	public void setTags(List<String> tags) {
+		this.tags = tags;
+	}
 }
